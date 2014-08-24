@@ -1,8 +1,6 @@
 require(plyr)
 require(data.table)
 
-setwd("/home/romi/Education/Documents/Coursera/Data Science/getdata-006/project/UCI HAR Dataset/")
-
 beautifyFeatureName <- function (featureName) {
   featureName <- sub("\\(\\)$","", featureName)
   featureName <- sub("-mean$","Mean", featureName)
