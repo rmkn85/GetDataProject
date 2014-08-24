@@ -29,15 +29,9 @@ output: html_document
 20. Freq Body Body Gyroscope Jerk Magnitude StdDev
 
 ## Variables
-1: Subject - participant #2 from 1 to 30
-2: Activity during measurement, one of:
- + LAYING
- + SITTING
- + STANDING
- + WALKING
- + WALKING_DOWNSTAIRS
- + WALKING_UPSTAIRS
-3-20: Average of measurements per subject and activity
+* **1**: Subject - participant number from 1 to 30
+* **2**: Activity during measurement, one of: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+* **3-20**: Average of measurements per subject and activity
 
 # Instruction List
 
